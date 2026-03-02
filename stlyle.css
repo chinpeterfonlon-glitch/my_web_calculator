@@ -1,0 +1,96 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+.whole{
+    background-color: gray;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    place-self: center;
+    padding: 10px;
+}
+.calco{
+    background-color: rgb(62, 61, 61);
+    width: 300px;
+    height: 525px;
+    text-align: center;
+    justify-content: center;
+    place-self: center;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 4px 4px 8px 8px rgb(28, 28, 28,0.6);
+}
+.name{
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+#display{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 250px;
+    height: 100px;
+    place-self: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 100px;
+    overflow: hidden;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    padding: 30px;
+    width: 250px;
+    place-self: center;
+    height: 250px;
+}
+button{
+    background-color: gray;
+    border: transparent;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+.special{
+    background-color: rgb(57, 57, 56);
+    color: white;
+    border: solid white;
+}
+.special:hover{
+    background-color: white;
+    color: black;
+}
+.buttonp{
+    margin-top: 25px;
+}
+#equal{
+    width: 80%;
+    height: 55px;
+    background-color: gray;
+    color: black;
+    border: transparent;
+    place-self: center;
+}
+#equal:hover{
+    background-color: black;
+    border: solid rgb(255, 255, 255);
+    color: white;
+}
